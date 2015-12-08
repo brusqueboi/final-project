@@ -1,0 +1,138 @@
+<template name="Recipes" xmlns="http://www.w3.org/1999/html">
+  <!-- style.css link -->
+  <link href="/client/components/styles.css" rel="stylesheet">
+  <header id="header">
+    <div id="logo" data-content-field="site-title">
+      <h1 class="logo" data-shrink-original-size="46" style="letter-spacing: 0.0217391em;">
+          Recipes
+      </h1>
+      <div class="logo-subtitle" data-shrink-original-size="12" style="letter-spacing: 0.0833333em;">
+
+      </div>
+    </div>
+  </header>
+
+  {{#if currentUser}}
+    <div class = "firstRecipe">
+      <h1 style="text-align: center"><u>Chicken Dip</u></h1>
+      <div>
+        <img src="/chickendip.jpg" alt="dip" align="right" height="35%" width="35%" style="padding-right: 3%">
+      </div>
+
+      <ul>
+        <h3><u>Ingredients</u></h3>
+        <li>2 Boneless skinless chicken breast (about 1 lb.)</li>
+        <li>1 pkg / 8oz. Cream cheese, room temperature</li>
+        <li>½ cup Sour cream</li>
+        <li>1¼ cup Shredded pepper jack cheese, divided</li>
+        <li>¾ cup Sempio Hot Kalbi Sauce (http://www.amazon.com/sempio)</li>
+        <li>5 to 6 Green onion, chopped</li>
+        <li>Crackers, chips or bread to serve with</li>
+      </ul>
+      <ul class = "instruct">
+        <h2><u>Instructions</u></h2>
+        <li>Preheat oven over 450 degrees.</li>
+        <li>Place chicken breast on a baking sheet</li>
+        <li>(grease the sheet if needed) and roast for 15 to 20 minutes or until chicken is fully cooked.</li>
+        <li>(The safe internal temperature for cooked chicken is 165° F / 75° C)</li>
+        <li>Remove from oven, let it cool. Now, preheat oven over 400 degrees. </li>
+        <li>Meanwhile, combine cream cheese, sour cream, 1 cup pepper jack cheese,
+          Sempio Hot Kalbi Sauce and green onion in a large
+          mixing bowl. </li>
+        <li>Whisk until everything is well mixed. Set aside. </li>
+        <li>Shred chicken with your hand or chop it with a knife. (Not too small,
+          so it will still have some bites and textures) </li>
+        <li>Add shredded/chopped chicken into cheese mixture, mix well.</li>
+        <li>Pour chicken dip into a 8 x 6 oven baking dish (Holds up to 2 quarts.), spread evenly.</li>
+        <li>Sprinkle remaining pepper jack cheese right on top. </li>
+        <li>Just in case chicken dip boils over, place baking dish with chicken dip on a baking sheet.</li>
+        <li>Pop it into preheated oven (400 degrees)</li>
+        <li>bake for 20 minutes or until chicken dip is bubbling cheese is melted and golden.</li>
+        <li>Garnish with some extra chopped green onion and red chili. </li>
+        <li>Serve warm with choice of crackers, chips or bread. Enjoy!</li>
+      </ul>
+      <p>Source: http://seonkyounglongest.com/?p=4964</p>
+      <div class="page-divider"></div>
+    </div>
+
+    <div class = "secondRecipe">
+      <h1 style="text-align: center" ><u>Spicy Ahi Bowl</u></h1>
+      <div>
+        <img src="/spicyahi.jpg" alt="ahi" align="right" height="35%" width="35%" style="padding-right: 3%">
+      </div>
+      <ul>
+        <h2><u>Ingredients</u></h2>
+        <li>2 lbs Ahi Tuna (sushi grade)</li>
+        <li>6 T Japanese mayo (I use kewpie)</li>
+        <li>3 T Sriracha sauce</li>
+        <li>3 T Asian sweet chili sauce (I use Trader Joes)</li>
+        <li>3 T Sesame oil</li>
+        <li>2-3 T Tobiko or Masago</li>
+        <li>White sesame seeds</li>
+        <li>Black sesame seeds</li>
+        <li>1/4 Yellow onion (sliced very thin)</li>
+        <li>2 Green onions (sliced very thin)</li>
+        <li>1-3 Avocado (cubed)</li>
+        <li>Rice</li>
+      </ul>
+      <ul class = "instruct">
+        <h2><u>Instructions</u></h2>
+        <li>1. Prepare rice and keep warm </li>
+        <li>2. Cube Ahi </li>
+        <li>3. Mix mayo, sriracha, sweet chili sauce, sesame oil, and tobiko. </li>
+        <li>4. To serve, add some sauce to a serving of ahi (4-6 oz of fish). Mix well. </li>
+        <li>5. Lay that spicy ahi on about a cup of Japanese rice. </li>
+        <li>6. Top with sesame seeds, onion, green onion, and avocado to taste.</li>
+      </ul>
+      <p>Source: http://www.epicurious.com/recipes/member/views/spicy-mayo-poke-58390724</p>
+      <p>Picture Source: https://www.pinterest.com/pin/535787686888772810/</p>
+    </div>
+
+    <div class = "thirdRecipe">
+      <h1 style="text-align: center"><u>Mitsu-Ken's Garlic Chicken</u></h1>
+      <div>
+        <img src="/mitsuken.jpg" alt="mitsuken" align="right" height="35%" width="35%" style="padding-right: 3%">
+      </div>
+      <ul>
+        <h2><u>Ingredients</u></h2>
+        <li>Chicken</li>
+        <li>3 pounds chicken drummettes or wings</li>
+        <li>2 cups flour</li>
+        <li>2 tablespoons garlic salt</li>
+        <li>1/2 teaspoon white pepper</li>
+        <li>1/4 teaspoon garlic powder</li>
+        <li>1 quart canola oil; for frying</li>
+        <li>Garlic-Soy Sauce</li>
+        <li>1 cup soy sauce</li>
+        <li>1 cup sugar</li>
+        <li>1/2 cup water</li>
+        <li>1/4 teaspoon fresh grated ginger</li>
+        <li>1 small clove garlic; minced</li>
+        <li>1/4 cup green onions; chopped</li>
+        <li>shichimi togarashi; to taste (optional)</li>
+      </ul>
+      <ul class = "instruct">
+        <h2><u>Instructions</u></h2>
+        <li>Rinse chicken and pat dry; set aside. </li>
+        <li>Combine flour, garlic salt, pepper and garlic powder in gallon-size plastic bag; shake to mix well. </li>
+        <li>Place chicken in the plastic bag, shake to coat with flour mixture.  </li>
+        <li>Refrigerate 30-45 minutes.</li>
+        <li>Combine all ingredients for Garlic-Soy Sauce; mix until well blended. </li>
+        <li>Deep fry chicken in oil heated to 365-375 degrees until chicken is golden.</li>
+        <li>Drain on paper towels then dip in garlic-soy sauce to serve.</li>
+      </ul>
+      <p>Source: http://www.bigoven.com/recipe/mitsu-kens-garlic-chicken/193836</p>
+      <p>Picture Source: https://www.pinterest.com/pin/535787686888772810/</p>
+    </div>
+
+  <div style="padding-left: 3%; padding-right: 3%">
+  <!-- begin wwww.htmlcommentbox.com -->
+  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+  <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+  <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1449568235831");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+  <!-- end www.htmlcommentbox.com -->
+    </div>
+  {{else}}
+  <p style="text-align: center">Please log in to make a comment and view the page</p>
+  {{/if}}
+</template>

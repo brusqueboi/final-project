@@ -1,0 +1,57 @@
+<template name="home">
+  <style type="text/css">
+    body {
+    background-color: bisque;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $('.viewport').mouseenter(function(e) {
+        $(this).children('a').children('img').animate({ height: '250', left: '0', top: '0', width: '475'}, 100);
+        $(this).children('a').children('span').fadeIn(200); /*H:299 W:450*/
+      }).mouseleave(function(e) {
+        $(this).children('a').children('img').animate({ height: '275', left: '-20', top: '-20', width: '525'}, 100);
+        $(this).children('a').children('span').fadeOut(200);
+      });
+    });
+  </script>
+
+  <div class="topLeft">
+    <div class="viewport">
+      <a href="{{pathFor 'Recipes'}}">
+        <span class="dark-background">Recipes<em>Fo' da mean kanack attacks, brah</em></span>
+        <img src="/hamachi.jpg" alt="chicken katsu">
+      </a>
+    </div>
+  </div>
+
+  <div class="topRight">
+    <div class="viewport">
+      <a href="{{pathFor 'about'}}">
+        <span class="dark-background">History<em>Da heroic legends of Jacob, Jun, and this awesome website, brah</em></span>
+        <img src="/musubi.jpg" alt="musubi">
+      </a>
+    </div>
+  </div>
+
+  <div class="botLeft">
+    <div class="viewport">
+      <a href="{{pathFor 'Recipes'}}">
+        <span class="dark-background">Blog<em>Because people like talk smack liddat</em></span>
+        <img src="/mochiko.jpg" alt="mochiko">
+      </a>
+    </div>
+  </div>
+
+  <div class="botRight">
+    <div class="viewport">
+      <a href="{{pathFor 'Recipes'}}">
+        <span class="dark-background">Chicken Katsu<em>Taste good, ah</em></span>
+        <img src="/chickenkatsu.jpg" alt="hamachi">
+      </a>
+    </div>
+  </div>
+  <div style="height: 550px; width: 1000px;"></div>
+
+
+</template>

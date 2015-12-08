@@ -1,0 +1,473 @@
+/***** CSS FILES *****/
+body #canvas {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#canvas {
+  max-width: 1100px; /** 1020 **/
+  margin: 0px auto;
+  padding: 45px;
+}
+
+article, aside, details, figcaption, figure, footer, header, nav, section {
+  display: block;
+}
+
+#logo, #topNav {
+  float: top;
+}
+
+.logo-subtitle {
+  font-family: "proxima-nova";
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: #2E0200;
+  margin-top: 0.7em;
+  width: 100%;
+}
+
+.layout-style-left #topNav {
+  float: right;
+}
+
+#topNav {
+  position: relative;
+  z-index: 890;
+}
+
+#topNav nav li {
+  float: left;
+  position: relative;
+  margin-right: 35px;
+}
+
+#topNav ul, #topNav li {
+  text-decoration: none !important;
+}
+
+.page-divider {
+  border-bottom: 1px solid #DDD;
+}
+
+.dropdown-menu, .navbar .nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0px;
+}
+
+form {
+  margin: 0px 0px 20px;
+}
+
+input, textarea, .uneditable-input {
+  margin-left: 0px;
+}
+input, textarea, .uneditable-input {
+  margin-left: 0px;
+}
+input, textarea, .uneditable-input {
+  width: 206px;
+}
+input, button, select, textarea {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+label, input, button, select, textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+button, input {
+  line-height: normal;
+}
+button, input, select, textarea {
+  margin: 0px;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.navbar .btn {
+  background-color: #535368;
+  background-image: none;
+  border-color: transparent;
+  color: #E6E6E6;
+  text-shadow: 0px 0px 0px;
+  box-shadow: 0px 0px 0px;
+}
+
+a {
+  color: #08C;
+  text-decoration: none;
+}
+
+.collapse {
+  position: relative;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.35s ease 0s;
+}
+/****************************/
+div#nav, nav{
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+div#header, header{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+div#body, body{
+  width: 100%;
+}
+div#section, section{
+  width: 100%;
+  display: inline-flex;
+}
+div#aside, aside{
+  padding-left: 13%;
+}
+
+div#bod{
+  width: 75%;
+  margin: auto;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+div#rheader{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.panel{
+  min-width: 25%;
+  height: 25%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: -150%;
+  position: absolute;
+  background: #000;
+  box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
+  z-index: 2;
+  -webkit-transition: all .8s ease-in-out;
+  -moz-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+.panel:target{
+  margin-top: 0%;
+  background-color: steelblue;
+}
+.content{
+  /*
+  right: 40px;
+  left: 280px;
+  top: 0px;
+  */
+  position: absolute;
+  padding-bottom: 30px;
+}
+.content h2{
+  font-size: 110px;
+  margin-top: 52px;
+  /*
+  padding: 10px 0px 20px 0px;
+  color: #fff;
+  */
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+.content p {
+  font-size: 18px;
+  padding: 10px;
+  line-height: 24px;
+  color: #fff;
+  display: inline-block;
+  /*background: black;*/
+  padding: 10px;
+  margin: 3px 0px;
+}
+
+/**** MAIN MENU PICTURE DISPLAY ****/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+body {
+  background: #333;
+}
+*/
+
+/* --- Container configuration ---------------------------------------------------------- */
+.viewport {
+  border: 3px solid #eee;
+  float: left;
+  margin: 0 9px 9px 0;
+  overflow: hidden;
+  position: relative;
+  /*
+  height: 299px;
+  width: 450px;
+  */
+  height: 250px;
+  width: 475px;
+
+  left: 20px;
+}
+
+/* This is so that the 2nd thumbnail in each row fits snugly. You will want to add a similar
+   class to the last thumbnail in each row to get rid of the margin-right. */
+.no-margin {
+  margin-right: 0;
+}
+
+/* --- Link configuration that contains the image and label ----------------------------- */
+.viewport a {
+  display: block;
+  position: relative;
+}
+
+.viewport a img {
+  left: -20px;
+  position: relative;
+  top: -20px;
+  /*
+  height: 332px;
+  width: 500px;
+  */
+  height: 275px;
+  width: 525px;
+
+}
+
+/* --- Label configuration -------------------------------------------------------------- */
+.viewport a span {
+  display: none;
+  font-size: 3.0em;
+  font-weight: bold;
+  height: 100%;
+  padding-top: 120px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  z-index: 100;
+}
+.viewport a span em {
+  display: block;
+  font-size: 0.45em;
+  font-weight: normal;
+}
+
+/* --- Dark hover background ------------------------------------------------------------ */
+.dark-background {
+  background-color: rgba(15, 15, 15, 0.6);
+  color: #fff;
+  text-shadow: #000 0px 0px 20px;
+}
+.dark-background em {
+  color: #ccc;
+}
+
+/***** MAIN MENU PICTURE PLACEMENT SECTIONS *****/
+.topLeft{
+  left: 15px;
+  float: left;
+  position: relative;
+}
+
+.topRight{
+  left: 37px;
+  float: left;
+  position: relative;
+}
+
+.botLeft{
+  left: 15px;
+  top: 1px;
+  float: left;
+  position: relative;
+}
+
+
+.botRight{
+  left: 37px;
+  top: 1px;
+  float: left;
+  position: relative;
+}
+
+
+/***** HISTORY PAGE *****/
+.recipeIntro p{
+  font-size: 18px;
+  padding: 10px;
+  line-height: 24px;
+  display: inline-block;
+  /*background: black;*/
+  padding: 10px;
+  margin: 3px 0px;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 10px solid #FFF;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 10px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #FFF;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+  border-left-color: #FFF;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  box-shadow: 5px 5px 5px #111;
+  float: left;
+}
+
+/*SHRINK*/
+.shrink img {
+  height: 400px;
+  width: 400px;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.shrink img:hover {
+  width: 275px;
+  height: 275px;
+}
+
+.sidepan img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+
+.sidepan img:hover {
+  margin-left: -250px;
+}
+
+/*VERTPAN*/
+.vertpan img {
+  margin-top: 20px;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+
+.vertpan img:hover {
+  margin-top: -300px;
+}
+
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.morph:hover {
+  position: relative;
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/*FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.focus:hover {
+  border: 70px solid #000;
+  border-radius: 50%;
+}
